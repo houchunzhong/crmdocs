@@ -57,10 +57,10 @@ Each Account Type can correspond to multiple Groups on the trading
 server. Different Groups under the same Account Type may have different
 leverage settings. For example:
 
--   ECN-BB  1:100\
--   forex-hedge 1:500\
--   standard-usd 1:200\
--   cent-eur  1:500
+-   ECN-BB         1:100
+-   forex-hedge    1:500
+-   standard-usd     1:200
+-   cent-eur        1:500
 
 By establishing an **Account Type ↔ Group** mapping in the CRM, the
 account-opening process becomes automated and accurate.
