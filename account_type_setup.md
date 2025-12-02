@@ -14,10 +14,7 @@ The content of an account type is divided into two categories:
 Defines the range of account numbers available for this account type within the Trading Server.
 The system will automatically select the next available account number within this range when creating a new account.
 
-**Example:**
-```
-500000 – 500200
-```
+**Example:** 500000 – 500200
 This indicates that up to **200 accounts** can be generated under this account type.
 
 ---
@@ -43,19 +40,20 @@ During account creation, the system will automatically use the mapped group to e
 
 ---
 
-## 2. Front-End Display Rules (Display Only, Does Not Affect Trading Logic)
+## 2. Front-End Display Rules (Display Only)
 
 The following fields are **only displayed to users** as account information.
-They do **not** affect the actual configuration on the trading server:
+They do **NOT** affect the actual configuration on the trading server:
 
-- **Spread:** e.g., “From 1.2 pips”
-- **Commission:** e.g., “No commission”
-- **Minimum Deposit:** e.g., “5000 USD”
-- **Minimum Trade:** e.g., “0.05 lot”
-- **Leverage:** e.g., “1:200”
-- **Products:** e.g., “FX, CFDs, Metal, Oil”
-- **Margin Call Level:** e.g., “200%”
-- **Stop Out Level:** e.g., “50%”
-- **EA Trading:** e.g., “1 / 0”
+**Example:**  
+- **Spread:** From 1.2 pips
+- **Commission:** No commission
+- **Minimum Deposit:** 5000 USD
+- **Minimum Trade:** 0.05 lot
+- **Leverage:** 1:200
+- **Products:** FX, CFDs, Metal, Oil
+- **Margin Call Level:** 200%
+- **Stop Out Level:** 50%
+- **EA Trading:** Allow
 
 These fields serve as descriptive information only, helping users understand the characteristics and rules of the account type.
