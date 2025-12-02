@@ -16,7 +16,7 @@ Configure system-related domains to ensure proper access and integration between
   URL for accessing the mobile version of the CRM. Must use https and end with .com.  
   Example: https://crmmobile.tradewisesoftware.com
 
-- **Server Domain**  
+- **CRM Server Domain**  
   Used for integration with third-party services (e.g., E-KYC, SMS, email systems). Must use https and remain consistent with the domain used during server deployment.  
   Example: https://api.tradewisesoftware.com
 
@@ -25,11 +25,11 @@ Configure system-related domains to ensure proper access and integration between
 ## 2. User Agreement Settings  
 The user agreement is displayed on the registration page. Users must review and accept it before completing registration or login.
 
-- **Display Name**  
+- **User Agreement Display Name**  
   The name shown on the registration page.  
   Example: User Agreement, Terms and Conditions
 
-- **Agreement URL**  
+- **User Agreement URL/Address**  
   The link to the agreement content. Must begin with https. File uploads are supported (PDF, TXT), and the system will automatically generate a URL after upload.  
   Example: https://www.tradewisesoftware.com/terms.pdf
 
@@ -97,8 +97,8 @@ By configuring account lock and unlock policies, administrators can effectively 
 
 ---
 
-## 6. Withdrawal Account Settings  
-In the **Withdrawal Account Settings**, administrators can configure whether users are required to upload images when registering their bank accounts and the number of images to be uploaded. This helps ensure the accuracy and security of the withdrawal account information.
+## 6. Withdrawal Account Review Settings  
+In the **Withdrawal Account Review Settings**, administrators can configure whether users are required to upload images when registering their bank accounts and the number of images to be uploaded. This helps ensure the accuracy and security of the withdrawal account information.
 
 - **Is image upload required?**  
   Configures whether users are required to upload images of their bank card when registering their withdrawal account. If enabled, users must upload at least one image to verify the account.

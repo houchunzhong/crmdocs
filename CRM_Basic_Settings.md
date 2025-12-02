@@ -15,7 +15,7 @@ URL used to access the web-based CRM system. Must use `https` and end with `.com
 URL for accessing the mobile version of the CRM. Must use `https` and end with `.com`.  
 **Example:** https://crmmobile.tradewisesoftware.com
 
-### • Server Domain
+### • CRM Server Domain
 Used for integration with third-party services (e.g., E-KYC, SMS, email systems). Must use `https` and remain consistent with the domain used during server deployment.  
 **Example:** https://api.tradewisesoftware.com
 
@@ -24,11 +24,11 @@ Used for integration with third-party services (e.g., E-KYC, SMS, email systems)
 ## 2. User Agreement Settings
 The user agreement is displayed on the registration page. Users must review and accept it before completing registration or login.
 
-### • Display Name
+### • User Agreement Display Name
 The name shown on the registration page.  
 **Example:** User Agreement, Terms and Conditions
 
-### • Agreement URL
+### • User Agreement URL/Address
 The link to the agreement content. Must begin with `https`.  
 File uploads are supported (PDF, TXT), and the system will automatically generate a URL after upload.  
 **Example:** https://www.tradewisesoftware.com/terms.pdf
