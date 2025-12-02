@@ -24,6 +24,6 @@ else
 fi
 
 # 可选：重启 docsify 服务（如果你用 systemd 管理）
-# sudo systemctl restart docsify >> "$LOG_FILE" 2>&1
+sudo systemctl restart docsify >> "$LOG_FILE" 2>&1
 
 exit 0
