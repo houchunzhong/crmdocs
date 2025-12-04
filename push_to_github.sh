@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/ec2-user/my-docs/docs
+cd /home/ec2-user/my-docs
 
 # 获取当前时间作为提交信息
 MESSAGE="Auto-update docs on $(date '+%Y-%m-%d %H:%M')"

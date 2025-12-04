@@ -2,7 +2,7 @@
 
 # 日志文件路径
 LOG_FILE="/home/ec2-user/logs/git-pull.log"
-REPO_DIR="/home/ec2-user/my-docs/docs"
+REPO_DIR="/home/ec2-user/my-docs"
 
 # 创建日志目录（如果不存在）
 mkdir -p "$(dirname "$LOG_FILE")"
