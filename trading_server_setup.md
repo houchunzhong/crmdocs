@@ -9,7 +9,7 @@ This section explains how administrators can configure trading servers within th
 ### ⚙️ Basic Information Configuration
 
 * **Trading Platform**
-  Select the type of trading platform, such as MT4 or MT5.![1764928378015](images/trading_server_setup/1764928378015.png)
+  Select the type of trading platform, such as MT4 or MT5.
 * **Live or Demo**
   Set the server environment type: **LIVE**, **DEMO**, or **LIVE & DEMO (Not Recommended)**.
 
@@ -78,7 +78,7 @@ Controls whether the client download module is visible to users:
 
 ### 2.2 Download URL List
 
-This list manages the software download or access links for different platforms:
+This list manages the software download or access links for different platforms:![1764928901651](images/trading_server_setup/1764928901651.png)
 
 * **Icon Style**
   Used to display the identifier for different platforms (e.g., Windows, Apple, Android).
