@@ -10,4 +10,4 @@
 - Users
   - [User list](/md/user_list.md)
 - Funds
-  - [Deopsits]](/md/funds.md)
+  - [Deopsits](/md/funds.md)
