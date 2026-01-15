@@ -1,5 +1,5 @@
 - Getting Started
-  - [Before you begin](/md/basic_Settings_Document.md)
+  - [Before you begin](/md/basic_settings.md)
   - [Authorization](/md/authorization.md)
 - Account setup
   - [Account Type setup](/md/account_type_setup.md)
@@ -7,4 +7,5 @@
   - [Trading server setup.md](/md/trading_server_setup.md)
 - Partnership
   - [Commission](/md/commission.md)
-
+- Users
+  - [User list](/md/user_list.md)
