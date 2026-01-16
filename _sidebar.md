@@ -8,6 +8,9 @@
 - Partnership
   - [Commission](/md/commission.md)
 - Users
+  - KYC settings](/md/kyc_settings.md)
   - [User list](/md/user_list.md)
 - Funds
   - [Deopsits](/md/funds.md)
+
+
