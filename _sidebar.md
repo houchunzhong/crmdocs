@@ -9,3 +9,5 @@
   - [Commission](/md/commission.md)
 - Users
   - [User list](/md/user_list.md)
+- Funds
+  - [Deopsits](/md/funds.md)
