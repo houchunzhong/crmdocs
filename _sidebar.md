@@ -1,4 +1,4 @@
-- Getting Started
+ - Getting Started
   - [Before you begin](/md/basic_settings.md)
   - [Authorization](/md/authorization.md)
 - Account setup
@@ -8,9 +8,8 @@
 - Partnership
   - [Commission](/md/commission.md)
 - Users
-  - KYC settings](/md/kyc_settings.md)
+  - [ KYC settings](/md/kyc_settings.md)
   - [User list](/md/user_list.md)
 - Funds
   - [Deopsits](/md/funds.md)
-
 
