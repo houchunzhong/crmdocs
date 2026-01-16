@@ -10,6 +10,8 @@
 - Users
   - [ KYC settings](/md/kyc_settings.md)
   - [User list](/md/user_list.md)
+- Email & Notification
+  - [Email Notification](/md/email_notification.md)
 - Funds
   - [Deopsits](/md/funds.md)
 
