@@ -1,6 +1,6 @@
- - Getting Started
-  - [Before you begin](/md/basic_settings.md)
-  - [Authorization](/md/authorization.md)
+- Getting Started
+- [Before you begin](/md/basic_settings.md)
+- [Authorization](/md/authorization.md)
 - Account setup
   - [Account Type setup](/md/account_type_setup.md)
   - [Trading server overview](/md/trading_server_overview.md)
@@ -14,4 +14,6 @@
   - [Email Notification](/md/email_notification.md)
 - Funds
   - [Deopsits](/md/funds.md)
+- Personal Center
+  - [My Profile](/md/personal_center.md)
 
