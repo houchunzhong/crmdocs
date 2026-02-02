@@ -16,4 +16,6 @@
   - [Deopsits](/md/funds.md)
 - Personal Center
   - [My Profile](/md/personal_center.md)
+- Currency & Payment 
+  - [My Profile](/md/currency_payment.md)
 
