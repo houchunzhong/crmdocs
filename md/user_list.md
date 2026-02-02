@@ -1,10 +1,4 @@
-
-
-This document describes the core functionalities of the **My Investment Markets (MIM) CRM** system based on its user interface. It covers key modules including user management, account information viewing and editing, hierarchical relationship tracking, and more—designed for brokers and administrators.
-
----
-
-## **1. User List Module**
+# **1. User List Module**
 
 This module serves as a centralized dashboard for all registered users, enabling quick filtering and bulk management.
 
