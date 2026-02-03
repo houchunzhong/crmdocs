@@ -20,5 +20,5 @@
   - [Currency](/md/currency_payment.md)
 - Administrator 
   - [Administrator](/md/administrator.md)
-- FundinFunding Data
+- Statistics
   - [Funding Data](/md/funding_data.md)
