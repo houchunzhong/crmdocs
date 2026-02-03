@@ -17,5 +17,8 @@
 - Personal Center
   - [My Profile](/md/personal_center.md)
 - Currency & Payment 
-  - [My Profile](/md/currency_payment.md)
-
+  - [Currency](/md/currency_payment.md)
+- Administrator 
+  - [Administrator](/md/administrator.md)
+- FundinFunding Data
+  - [Funding Data](/md/funding_data.md)
