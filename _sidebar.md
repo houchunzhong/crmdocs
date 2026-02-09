@@ -22,3 +22,5 @@
   - [Administrator](/md/administrator.md)
 - Statistics
   - [Funding Data](/md/funding_data.md)
+  - [Currency Management](/md/currency_management.md)
+  - [Traffic & Conversion Analytics](/md/traffic_conversion_analytics.md)
