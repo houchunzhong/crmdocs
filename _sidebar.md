@@ -1,16 +1,16 @@
 - Getting Started
-- [Before you begin](/md/basic_settings.md)
+- [Before You Begin](/md/basic_settings.md)
 - [Authorization](/md/authorization.md)
 - Account setup
-  - [Account Type setup](/md/account_type_setup.md)
-  - [Trading server overview](/md/trading_server_overview.md)
-  - [Trading server setup.md](/md/trading_server_setup.md)
+  - [Account Type Setup](/md/account_type_setup.md)
+  - [Trading Server Overview](/md/trading_server_overview.md)
+  - [Trading Server Setup.md](/md/trading_server_setup.md)
 - Partnership
   - [Commission](/md/commission.md)
 - Users
-  - [ KYC settings](/md/kyc_settings.md)
-  - [User list](/md/user_list.md)
-  - [user_relationship_tree](/md/user_relationship_tree)
+  - [KYC Settings](/md/kyc_settings.md)
+  - [User List](/md/user_list.md)
+  - [User Relationship Tree](/md/user_relationship_tree)
 - Email & Notification
   - [Email Notification](/md/email_notification.md)
 - Funds
