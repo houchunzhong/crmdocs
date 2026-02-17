@@ -4,7 +4,7 @@
 - Account setup
   - [Account Type Setup](/md/account_type_setup.md)
   - [Trading Server Overview](/md/trading_server_overview.md)
-  - [Trading Server Setup.md](/md/trading_server_setup.md)
+  - [Trading Server Setup](/md/trading_server_setup.md)
 - Partnership
   - [Commission](/md/commission.md)
 - Users
