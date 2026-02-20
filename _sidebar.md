@@ -4,9 +4,9 @@
 - Account setup
   - [Account Type Setup](/md/account_type_setup.md)
   - [Trading Server Overview](/md/trading_server_overview.md)
-  - [Trading Server Setup](/md/trading_server_setup.md)
+  - [Trading Server Setup](/mds/trading_server_setup.md)
 - Agent
-  - [Agent List](/zh-cn/agent_list.md)
+  - [Agent List](/md/agent_list.md)
 - Partnership
   - [Commission](/md/commission.md)
 - Users
