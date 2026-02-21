@@ -7,6 +7,7 @@
   - [Trading Server Setup](/md/trading_server_setup.md)
 - Agent
   - [Agent List](/md/agent_list.md)
+  - [Agent Applications](/md/agent_applications.md)
 - Partnership
   - [Commission](/md/commission.md)
 - Users
