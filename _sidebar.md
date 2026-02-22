@@ -5,9 +5,11 @@
   - [Account Type Setup](/md/account_type_setup.md)
   - [Trading Server Overview](/md/trading_server_overview.md)
   - [Trading Server Setup](/md/trading_server_setup.md)
+  - [Historical Orders](/md/historical_orders.md)
 - Agent
   - [Agent List](/md/agent_list.md)
   - [Agent Applications](/md/agent_applications.md)
+  - [Order Commissions](/md/order_commissions.md)
 - Partnership
   - [Commission](/md/commission.md)
 - Users
