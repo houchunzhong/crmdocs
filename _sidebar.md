@@ -22,7 +22,7 @@
   - [Deopsits](/md/funds.md)
 - Personal Center
   - [My Profile](/md/personal_center.md)
-- Currency & Payment(/md/currency_payment.md) 
+- [Currency & Payment](/md/currency_payment.md) 
   - [Currency](/md/currency.md)
   - [Payment Channels](/md/payment_channels)
 - Administrator 
