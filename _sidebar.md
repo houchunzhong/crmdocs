@@ -10,7 +10,7 @@
   - [Agent List](/md/agent_list.md)
   - [Agent Applications](/md/agent_applications.md)
   - [Order Commissions](/md/order_commissions.md)
-- Partnership
+- [Commission & Classification](/md/commission_classification.md)
   - [Commission](/md/commission.md)
 - Users
   - [KYC Settings](/md/kyc_settings.md)

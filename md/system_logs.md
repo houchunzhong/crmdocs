@@ -1,4 +1,4 @@
-# **System Logs Module: User Guide**  
+# **System Logs**  
 
 ## **1. Module Overview**
 
