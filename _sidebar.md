@@ -27,6 +27,7 @@
   - [Payment Channels](/md/payment_channels)
 - Administrator 
   - [Administrator](/md/administrator.md)
+  - [System Logs](/md/system_logs)
 - Statistics
   - [Funding Data](/md/funding_data.md)
   - [Currency Management](/md/currency_management.md)
