@@ -11,7 +11,8 @@
   - [Agent Applications](/md/agent_applications.md)
   - [Order Commissions](/md/order_commissions.md)
 - [Commission & Classification](/md/commission_classification.md)
-  - [Commission](/md/commission.md)
+  - [User Tiers](/md/user_tiers.md)
+  - [Product Type](/md/product_types.md)
 - Users
   - [KYC Settings](/md/kyc_settings.md)
   - [User List](/md/user_list.md)
