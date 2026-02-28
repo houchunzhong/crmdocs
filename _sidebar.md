@@ -13,6 +13,7 @@
 - [Commission & Classification](/md/commission_classification.md)
   - [User Tiers](/md/user_tiers.md)
   - [Product Type](/md/product_types.md)
+  - [Commission Plans](/md/commission_plans)
 - Users
   - [KYC Settings](/md/kyc_settings.md)
   - [User List](/md/user_list.md)
