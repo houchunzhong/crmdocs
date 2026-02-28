@@ -18,8 +18,9 @@
   - [KYC Settings](/md/kyc_settings.md)
   - [User List](/md/user_list.md)
   - [User Relationship Tree](/md/user_relationship_tree)
-- Email & Notification
-  - [Email Notification](/md/email_notification.md)
+- [Email & Notification](/md/email_notification.md)
+  - [Email List](/md/email_list.md)
+  - [Notification List](/md/notification_list.md)
 - Funds
   - [Deopsits](/md/funds.md)
 - Personal Center
