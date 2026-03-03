@@ -21,8 +21,9 @@
 - [Email & Notification](/md/email_notification.md)
   - [Email List](/md/email_list.md)
   - [Notification List](/md/notification_list.md)
-- Funds
-  - [Deopsits](/md/funds.md)
+- [Funds](/md/funds.md)
+  - [Deposit To-do](/md/deposit_to_do.md)
+  - [Deposit Records](/md/deposit_records.md)
 - Personal Center
   - [My Profile](/md/personal_center.md)
 - [Currency & Payment](/md/currency_payment.md) 
