@@ -94,7 +94,7 @@ View all completed deposit transactions for auditing, reconciliation, and report
 
 ---
 
-### **3. Withdrawals To-do (Pending Withdrawals)**
+### **3. Withdrawals To-do (Deposit to-do)**
 
 #### **Function Description**
 Displays user-submitted withdrawal requests that require administrator approval before processing.

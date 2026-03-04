@@ -24,6 +24,9 @@
 - [Funds](/md/funds.md)
   - [Deposit To-do](/md/deposit_to_do.md)
   - [Deposit Records](/md/deposit_records.md)
+  - [Withdrawls to-do](/md/withdrawls_to_do)
+  - [withdrawal Records](/md/withdrawal_records.md)
+  - [Transfer Records](/md/transfer_records)
 - Personal Center
   - [My Profile](/md/personal_center.md)
 - [Currency & Payment](/md/currency_payment.md) 

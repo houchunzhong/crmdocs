@@ -22,7 +22,7 @@ The **Deposit Records** module serves as the **deposit audit center** of MIM CRM
 | **Funds** | Enter the main funds management menu |
 | - Pending Deposits | View pending deposit requests |
 | - Deposit Records | View historical deposit data |
-| - Pending Withdrawals | View pending withdrawal requests |
+| - Deposit to-do | View pending withdrawal requests |
 
 ---
 

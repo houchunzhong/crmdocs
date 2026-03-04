@@ -22,7 +22,7 @@ The **Deposit To-do** module serves as the **deposit review center** of MIM CRM,
 | **Funds** | Enter the main funds management menu |
 | - Pending Deposits | View all pending deposit requests |
 | - Deposit Records | View historical deposit data |
-| - Pending Withdrawals | View pending withdrawal requests |
+| - Deposit to-do | View pending withdrawal requests |
 
 ---
 

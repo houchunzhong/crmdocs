@@ -25,7 +25,7 @@ The **Agent Applications** module functions as the **agent onboarding control ce
 | Tab | Description |
 |-----|-------------|
 | **Overview** | Return to parent page |
-| **Pending Withdrawals** | View withdrawal orders awaiting processing |
+| **Deposit to-do** | View withdrawal orders awaiting processing |
 | **Agent Applications** | Current page |
 
 ---
