@@ -1,150 +1,234 @@
-# **1. User List Module**
+# **User List**  
 
-This module serves as a centralized dashboard for all registered users, enabling quick filtering and bulk management.
+## **1. Module Overview**
 
-### **Key Features**
+The **User List** module serves as the **customer asset overview center** of MIM CRM, displaying summarized information of all registered users. It supports rapid filtering and searching by nationality, level, registration time, contact details, and more. Its core value lies in:
 
-- **Global Search**: A top search bar supports multi-field fuzzy matching by `ID / Name / Mobile / Email`.
-- **User Status Indicators**:
-  - ✅ **Green checkmark**: Indicates KYC-verified users (`Verified Client`)
-  - ⚠️ **Orange warning icon**: Indicates unverified or pending-review status
-- **Financial Summary** (displayed per row):
-  - 💵 **Account Balance (green)**: Current available funds
-  - 🔴 **Trading Exposure (red)**: Total open position risk or liabilities
-  - 🧾 **Total Assets (gold)**: Net worth or total equity
-- **User Type Tags**:
-  - `Client`: Standard customer
-  - `Verified Client`: KYC-compliant customer
-  - `Ordinary`: Basic user tier
-- **Referral Count**: Shows the number of direct referrals under the user (e.g., `0` means no subordinates)
-- **Action Button**: “View” on each row opens the detailed user profile
+- ✅ Enabling full lifecycle management (registration → KYC → trading → withdrawal)  
+- ✅ Supporting multi-condition combination queries to precisely target audiences  
+- ✅ Providing Excel export functionality for offline analysis and report generation  
+- ✅ Integrating permission controls to ensure secure access to sensitive data  
+
+> 🔐 Access is restricted to **System Administrators**, **Finance Managers**, and **IB Supervisors** only. Regular clients cannot view others' information.
 
 ---
 
-## **2. User Relationship Tree Module**
+## **2. Interface Layout**
 
-Visualizes referral and hierarchical relationships among users—essential for tracking IB (Introducing Broker) networks and agent structures.
-
-### **Core Capabilities**
-
-- **Tree Structure Layout**: Displays parent-child referral chains with expand/collapse functionality.
-- **Country Flags**: Nationality icons next to usernames enable instant geographic identification.
-- **Real-Time Data Sync**: Each node shows:
-  - Total Deposit, Total Withdrawal, Total Assets, Available Balance
-  - Account status and user level
-- **Clear Referral Mapping**: Instantly reveals who reports to whom—critical for commission allocation and performance analysis.
+### **Left Navigation Menu**
+| Item | Function |
+|------|----------|
+| **Users** | Enter user management main menu |
+| - User Search | Search users by criteria |
+| - User List | View all users (default page) |
+| - User Relationship Tree | View hierarchical structure (for IBs) |
+| - CFD User List | View users exclusive to CFD products |
 
 ---
 
-## **3. User Detail Page (User Profile)**
-
-Clicking any user opens their full profile for comprehensive review and administrative control.
-
-### **Page Layout**
-
-#### **Left Panel (Summary Snapshot)**
-
-- Avatar and full name
-- User ID and level (e.g., `Verified Client`, `Senior IB`)
-- Key financial metrics:
-  - Total Deposit
-  - Total Withdrawal
-  - Total Asset
-  - Available Balance
-- Basic Info:
-  - Nationality, Residence, Registration Time
-  - Verified mobile & email (with status badges)
-  - Contact icons (phone, email)
-
-#### **Right Panel (Editable Details)**
-
-##### **User Profile**
-
-| Field | Example | Editable? |
-|------|--------|----------|
-| First Name | Akina | ✅ Yes |
-| Middle Name | - | ✅ Yes |
-| Last Name | - | ✅ Yes |
-| Full Name | Akina | ✅ Yes |
-| Nationality | Unknown | ✅ Yes |
-| Residence | Australia | ✅ Yes |
-| Date of Birth | 17/11/1981 | ✅ Yes |
-| Email | Aki@tradewisesoftware.com | ✅ Yes |
-| Mobile | +852 51295885 | ✅ Yes |
-| Two-Factor Authentication | Not Set / Set - 2FA disabled | ✅ Yes |
-
-> ✅ **Verification Status**: Green “Verified” tags appear next to verified email and phone numbers.
-
-##### **User Account Details**
-
-| Field | Example | Description |
-|------|--------|------------|
-| User Status | Enabled / Trading Prohibited | Trading permission status |
-| User Type | Client / IB | User role |
-| User Level | Verified Client / Senior IB | Tier/level |
-| Referrer ID | 1 | ID of referring user |
-| Referrer Name | ZOEY ZHOUYI JIANG | Name of referrer |
-| Number of Referrals | 18 | Direct referrals made |
-| User Referral Code | 8AC73K | Unique invite code |
-| User Referral Link | https://.../login/8AC73K | Shareable registration link |
-| Registration Time | 13/09/2024 22:35:25 | Account creation timestamp |
-| Last CRM Login | 17/07/2025 11:25:27 | Most recent login |
-| First Approval Time | 26/09/2024 13:30:45 | Initial KYC approval time |
-| Fund Status | Funded | Whether deposit has been made |
-| First Deposit Time | 26/09/2024 13:17:53 | First funding timestamp |
-| Last Review Time | 24/07/2025 09:47:20 | Latest compliance review |
-
-> 🛠️ Each field includes an **Edit** or **Reset** button for manual administrator updates.
+### **Top Tab Bar**
+| Tab | Description |
+|-----|-------------|
+| **Overview** | Return to homepage |
+| **User List** | Current page |
+| **User - David Tan** | View detailed profile of a specific user |
 
 ---
 
-## **4. Additional Core Modules (Sidebar Navigation)**
-
-| Module | Description |
+### **User List View**
+| Field | Description |
 |-------|-------------|
-| **User Search** | Quick user lookup |
-| **CFD User List** | View CFD platform users |
-| **BO User List** | View Brokerage Office (BO) platform users |
-| **Funds (400)** | Manage deposits, withdrawals, and transfers |
-| **KYC Verification (155)** | Review pending/approved KYC applications |
-| **Trading Accounts** | Manage MT4/MT5 and other trading accounts |
-| **Agent** | Administer agents and IBs |
-| **Email & Notification** | Configure system alerts and email templates |
-| **System Settings** | Adjust language, timezone, and global preferences |
-| **Levels & Commissions** | Define user tiers and commission structures |
-| **Currency & Payment** | Configure supported currencies and payment gateways |
-| **Administrator** | Manage admin roles, permissions, and audit logs |
+| **User ID** | Unique identifier (e.g., `16680`) – clickable to view details |
+| **Name** | Display name or real name, with status icons (e.g., verified, incomplete KYC) |
+| **Nationality** | Country name + flag icon (e.g., 🇸🇬 Singapore) |
+| **Residence** | User's city or country of residence |
+| **Phone** | Phone number + verification status (green ✅ means verified) |
+| **Email** | Email address + verification status |
+| **User Level** | Customer type (e.g., Client, Verified Client, New Client) |
+| **Registration Time** | First registration time |
+| **Last CRM Login** | Most recent login to CRM system |
+| **Action** | Contains **View** button to access detailed profile |
+
+> 💡 Example: In the list, find user `David Tan` (ID: 16680), nationality Singapore, email verified, registered on `09/02/2026`.
 
 ---
 
-## **5. Practical Use Cases**
+## **3. Core Features**
 
-### **Case 1: Reviewing Client "Akina"**
+### **1. Multi-Condition Filtering & Search**
 
-- **Profile**: Verified Australian client
-- **Finances**: Total deposit $1,009,325.00; total assets $102,559.35
-- **Network**: Referred by ZOEY ZHOUYI JIANG; has 18 direct referrals
-- **Contact**: Verified email and mobile
-- **Activity**: Last logged in on July 17, 2025
+#### **Available Filters**
+| Condition | Description |
+|---------|-------------|
+| **Last CRM Login From ~ To** | Filter by last login time range |
+| **Registration Time From ~ To** | Filter by registration time range |
+| **Nationality** | Dropdown selection with flags + codes (e.g., +65 Singapore) |
+| **User Level** | Select customer level (e.g., Verified Client, New Client) |
+| **ID/Name/Phone/Email Search** | Quickly search by any field |
 
-### **Case 2: Reviewing IB "Klaus Weber"**
-
-- **Profile**: Senior IB from Germany (User ID: 5)
-- **Status**: Trading prohibited
-- **Network**: Referred 6 clients; referred by deng zhen
-- **Finances**: Total deposit $43,186.00; available balance $22,663.11
-- **Security**: 2FA configured but currently disabled
+> ✅ Pro Tips:
+> - Combine "Nationality" + "User Level" to quickly identify high-value clients.
+> - Use "Registration Time" to filter new users for welcome email campaigns.
 
 ---
 
-## **Conclusion**
+### **2. Bulk Export to Excel**
 
-The **MIM CRM** delivers a complete, efficient, and visual user management ecosystem with the following advantages:
+#### **Procedure**
+1. Select target users in the list (single or multiple)  
+2. Click **Download to Excel**  
+3. Pop-up appears: “Are you sure you want to export user data to Excel? Exported data may contain sensitive information.”  
+4. Click **Confirm** to generate and download `.xlsx` file  
 
-✅ **Holistic User Oversight**: From basic info to finances, behavior, and referral chains—all in one place
-✅ **Real-Time Synchronization**: Balances and trading statuses update automatically
-✅ **Transparent Hierarchy**: Clear visualization of referral networks for incentive planning and compliance
-✅ **Highly Customizable**: Supports multi-language, multi-currency, and multi-platform integration
+> ⚠️ Notes:
+> - Export includes: User ID, Name, Nationality, Residence, Phone, Email, Level, Registration Time, Last Login Time  
+> - Does not include trading accounts, fund flows, KYC documents, etc.  
+> - Only accessible to roles with `user:export:excel` permission
 
-Ideal for financial brokers requiring granular operational control, regulatory compliance, and scalable partner program management.
+---
 
+### **3. View User Details**
+
+#### **Workflow**
+1. Click on a user in the list (e.g., `David Tan`)  
+2. Navigate to **User Profile Page**, divided into sections:
+   - **User Profile**:
+     - First, Middle, Last Name, Full Name
+     - Nationality, Residence, Birthday
+     - Email, Phone (verified status)
+     - Two-Factor Authentication Status
+   - **User Account Details**:
+     - Status (Enabled/Disabled), User Type (Client/IB)
+     - Parent User ID, Number of Subordinates
+     - Invite Code, Login Link
+     - Registration Time, First Verification Time, Registration IP, Last Login IP
+   - **Other Tabs**:
+     - User Assets, Trading Accounts, Withdrawal Accounts, Logs (audit trail)
+
+> ✅ Example: Viewing `David Tan`’s profile reveals registration IP `171.223.184.189`, useful for fraud analysis.
+
+---
+
+## **4. Typical Use Cases**
+
+### **Use Case 1: Customer Service Handling Inquiries**
+
+> 🎯 Goal: Quickly locate users and provide personalized support
+
+- ✅ Implementation:
+  1. CS receives call: “I’m David Tan, I’d like to check my account status.”
+  2. In **User List**, search `David Tan` or `16680`
+  3. Click **View** to open profile
+  4. Check assets, trading accounts, last login time
+  5. If further help needed, create internal ticket or contact tech support
+
+> ✅ Outcome: Improve response speed and reduce redundant communication.
+
+---
+
+### **Use Case 2: IB Supervisor Analyzing Team Performance**
+
+> 🎯 Goal: Count subordinate clients and assess activity
+
+- ✅ Implementation:
+  1. Log in → Go to **Users → User List**
+  2. Set filters:
+     - Parent User ID = Own ID (e.g., `16680`)
+     - User Level = "Client"
+     - Registration Time: `01/02/2026 ~ 28/02/2026`
+  3. View total count (e.g., 37)
+  4. Click **Download to Excel**
+  5. In Excel, calculate:
+     - Total number
+     - Verified client count
+     - 30-day login rate
+
+> ✅ Outcome: Support performance evaluation.
+
+---
+
+### **Use Case 3: Compliance Team Identifying High-Risk Users**
+
+> 🎯 Goal: Identify users who haven’t completed KYC or logged in recently
+
+- ✅ Implementation:
+  1. Go to **User List**
+  2. Set filters:
+     - User Level = "New Client" (unverified)
+     - Last CRM Login < `01/02/2026`
+  3. View results (e.g., 12 users)
+  4. Select all → **Download to Excel**
+  5. Send reminder email: “Please complete KYC verification; otherwise, your account will be restricted.”
+
+> ✅ Outcome: Reduce compliance risk and improve KYC completion rate.
+
+---
+
+### **Use Case 4: Marketing Team Launching Targeted Campaigns**
+
+> 🎯 Goal: Push coupons to users from specific countries
+
+- ✅ Implementation:
+  1. Go to **User List**
+  2. Set filters:
+     - Nationality = "Singapore"
+     - Registration Time > `01/02/2026`
+     - User Level = "Verified Client"
+  3. View results (e.g., 87 users)
+  4. **Download to Excel**
+  5. Import into email system, send “Singapore Exclusive Offer” campaign
+
+> ✅ Outcome: Increase conversion and user retention.
+
+---
+
+## **5. Best Practices**
+
+| Scenario | Recommendation |
+|---------|----------------|
+| **Data Security** | Always remind users about sensitive data before exporting |
+| **Permission Control** | Only allow authorized roles to export data to prevent misuse |
+| **Regular Cleanup** | Flag users inactive for over 1 year as “dormant” for future handling |
+| **Automated Alerts** | Future versions will include automatic reminders when users don’t complete KYC |
+| **Data Masking** | For external sharing, pre-process fields like email/phone to mask sensitive info |
+
+---
+
+## **6. Frequently Asked Questions (FAQ)**
+
+### **Q1: Why do some users show "Unknown"?**  
+- ❌ Possible cause: Incomplete profile or uncompleted KYC  
+- ✅ Solution: Click **View** → Edit profile or guide them to complete verification
+
+---
+
+### **Q2: Can I export trading account details?**  
+- ❌ Not available by default.  
+- ✅ For trading account info, go to **Trading Accounts** module separately.
+
+---
+
+### **Q3: How to find a user’s parent IB?**  
+- ✅ Method: In the user profile’s “Account Details”, check the “Parent User ID” field.
+
+---
+
+### **Q4: What fields are included in the exported Excel file?**  
+- ✅ Includes: User ID, Name, Nationality, Residence, Phone, Email, Level, Registration Time, Last Login Time  
+- ❌ Excludes: Trading accounts, fund balances, KYC documents, withdrawal records
+
+---
+
+## **7. Summary**
+
+The **User List** module is a critical component of MIM CRM for achieving **precise customer operations and efficient management**. It offers powerful filtering and export capabilities while supporting multi-role collaboration. Through scientific data management and efficient querying, organizations can build a robust customer management system, delivering superior service experiences.
+
+✅ **Recommended Workflow**:  
+1. Go to **Users → User List** → 2. Use filters to locate users → 3. Click **View** or **Download to Excel** → 4. Analyze or export data
+
+> 📌 All actions are permission-controlled, ensuring data security and compliance.
+
+---
+
+**Version: v1.0**  
+**Last Updated: February 2026**

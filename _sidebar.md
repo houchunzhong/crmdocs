@@ -16,6 +16,7 @@
   - [Commission Plans](/md/commission_plans)
 - Users
   - [KYC Settings](/md/kyc_settings.md)
+  - [User Search](/md/user_search.md)
   - [User List](/md/user_list.md)
   - [User Relationship Tree](/md/user_relationship_tree)
 - [Email & Notification](/md/email_notification.md)
