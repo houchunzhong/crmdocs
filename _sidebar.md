@@ -15,7 +15,6 @@
   - [Product Type](/md/product_types.md)
   - [Commission Plans](/md/commission_plans)
 - Users
-  - [KYC Settings](/md/kyc_settings.md)
   - [User Search](/md/user_search.md)
   - [User List](/md/user_list.md)
   - [User Relationship Tree](/md/user_relationship_tree)
@@ -29,6 +28,8 @@
   - [withdrawal Records](/md/withdrawal_records.md)
   - [Transfer Records](/md/transfer_records)
   - [Refund Records](/md/refund_records)
+- [KYC Verfification](/md/kyc_settings.md)
+  - [KYC Settings](/md/kyc_pending_users.md)
 - Personal Center
   - [My Profile](/md/personal_center.md)
 - [Currency & Payment](/md/currency_payment.md) 
