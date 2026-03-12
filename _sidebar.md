@@ -29,7 +29,8 @@
   - [Transfer Records](/md/transfer_records)
   - [Refund Records](/md/refund_records)
 - [KYC Verfification](/md/kyc_settings.md)
-  - [KYC Settings](/md/kyc_pending_users)
+  - [Pending Users](/md/kyc_pending_users)
+  - [All Users](/md/kyc_all_users)
 - Personal Center
   - [My Profile](/md/personal_center.md)
 - [Currency & Payment](/md/currency_payment.md) 
