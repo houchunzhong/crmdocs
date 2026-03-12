@@ -31,6 +31,8 @@
 - [KYC Verfification](/md/kyc_settings.md)
   - [Pending Users](/md/kyc_pending_users)
   - [All Users](/md/kyc_all_users)
+  - [Pending Withdrawal Accounts](/md/kyc_pending_withdrawal_acc.md)
+  - [All Withdrawal Accounts](/md/kyc_all_withdrawal_acc.md)
 - Personal Center
   - [My Profile](/md/personal_center.md)
 - [Currency & Payment](/md/currency_payment.md) 
