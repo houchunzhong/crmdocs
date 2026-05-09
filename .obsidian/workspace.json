@@ -1,0 +1,235 @@
+{
+  "main": {
+    "id": "b7f0604c007d00a6",
+    "type": "split",
+    "children": [
+      {
+        "id": "9a551dea1f9b65d6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dad12111b08d79bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "md/Markdown Cheatsheet.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Markdown Cheatsheet"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a5e016bc78425eae",
+    "type": "split",
+    "children": [
+      {
+        "id": "22151676944ccacd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "043ee948582f4657",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "2ec7ff001cf82e05",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "157a74d55e8b2552",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "07bfac5241826839",
+    "type": "split",
+    "children": [
+      {
+        "id": "ab2d13a8ec48735e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "613884b01fbdc00e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "md/currency_management.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "currency_management 的反向链接列表"
+            }
+          },
+          {
+            "id": "f16689a930567819",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "md/currency_management.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "currency_management 的出链列表"
+            }
+          },
+          {
+            "id": "86357d1d999943b5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "9a708a8e0ab8b8c9",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "c65a6eb981940fad",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "md/currency_management.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "currency_management 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "workspaces:Manage workspace layouts": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "dad12111b08d79bc",
+  "lastOpenFiles": [
+    "md/account_type_setup.md",
+    "md/Markdown Cheatsheet.md",
+    "md/administrator.md",
+    "md/agent_applications.md",
+    "md/basic_settings.md",
+    "md/currency_management.md",
+    "images/trading_server_setup/1764928901651.png",
+    "images/README/1773636017104.png",
+    "images/README/1773635972988.png",
+    "images/README/1773635936618.png",
+    "images/README/1773635911383.png",
+    "images/quick_start_up/fig1_en.png",
+    "images/quick_start_up/fig1_ch.png",
+    "_sidebar.md",
+    "_navbar.md",
+    "zh-cn/images/快速开始/1773641687733.png",
+    "zh-cn/images/快速开始/1773630913763.png",
+    "zh-cn/出金记录.md",
+    "zh-cn/转账记录.md",
+    "zh-cn/KYC全部用户.md",
+    "zh-cn/KYC全部提款账户.md",
+    "zh-cn/KYC配置.md",
+    "zh-cn/KYC待审核用户.md",
+    "zh-cn/KYC待审核提款账户.md",
+    "zh-cn/用户列表_old.md",
+    "zh-cn/用户列表.md",
+    "zh-cn/用户关系树.md",
+    "zh-cn/用户等级.md",
+    "zh-cn/用户查询.md",
+    "zh-cn/佣金方案.md",
+    "zh-cn/系统日志.md",
+    "zh-cn/退款记录.md",
+    "zh-cn/入金记录.md",
+    "zh-cn/流量与转化分析.md",
+    "zh-cn/管理员.md"
+  ]
+}
