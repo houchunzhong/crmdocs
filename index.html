@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- Docsify 主题 -->
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/dolphin.css" />
+  <!-- Docsify 主题 — vue 最稳定支持导航下拉 -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css" />
 
   <!-- 插件 -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/theme-default.min.css" />
@@ -120,40 +120,31 @@
       box-shadow: 0 6px 20px rgba(99,102,241,.5);
     }
 
-    /* ========== 导航栏 ========== */
+    /* ========== 导航栏 — 在 vue 主题基础上美化 ========== */
     .app-nav {
-      background: linear-gradient(135deg, #1e293b 0%, #334155 50%, #1e293b 100%);
-      padding: 0 24px;
-      box-shadow: var(--shadow-md);
+      background: #fff;
+      box-shadow: 0 1px 3px rgba(0,0,0,.08);
+      border-bottom: 1px solid var(--c-border);
     }
     .app-nav a {
-      color: rgba(255,255,255,.85) !important;
-      font-size: 13.5px;
-      font-weight: 600;
-      padding: 8px 14px;
-      border-radius: 20px;
-      transition: all var(--transition);
+      color: var(--c-text) !important;
+      font-weight: 700;
     }
     .app-nav a:hover,
-    .app-nav a.active {
-      color: #fff !important;
-      background: rgba(255,255,255,.12);
+    .app-nav li.active > a {
+      color: var(--c-primary) !important;
     }
-    .app-nav li ul {
+    .app-nav ul ul {
       background: var(--c-surface);
       border-radius: var(--radius);
       box-shadow: var(--shadow-lg);
       border: 1px solid var(--c-border);
-      padding: 6px 0;
-      margin-top: 6px;
     }
-    .app-nav li ul a {
+    .app-nav ul ul a {
       color: var(--c-text) !important;
-      font-weight: 600;
-      border-radius: 0;
-      padding: 8px 20px;
+      font-weight: 700;
     }
-    .app-nav li ul a:hover {
+    .app-nav ul ul a:hover {
       background: #f1f5f9;
       color: var(--c-primary) !important;
     }
