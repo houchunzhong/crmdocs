@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-Content \"$env:USERPROFILE\\\\.ssh\\\\id_ed25519.pub\")",
+      "PowerShell([Environment]::SetEnvironmentVariable\\(\"PATH\", [Environment]::GetEnvironmentVariable\\(\"PATH\", \"User\"\\) + \";C:\\\\Program Files\\\\Git\\\\bin;C:\\\\Program Files\\\\Git\\\\cmd\", \"User\"\\); $env:PATH += \";C:\\\\Program Files\\\\Git\\\\bin;C:\\\\Program Files\\\\Git\\\\cmd\")",
+      "PowerShell(Start-Service ssh-agent 2>$null; Set-Service ssh-agent -StartupType Automatic 2>$null; ssh-add \"$env:USERPROFILE\\\\.ssh\\\\id_ed25519\")",
+      "PowerShell(Get-Service ssh-agent -ErrorAction SilentlyContinue)",
+      "PowerShell(Get-Service \"OpenSSH Authentication Agent\" -ErrorAction SilentlyContinue)",
+      "PowerShell(ssh-add -l 2>$null)",
+      "PowerShell(Start-Service ssh-agent; Set-Service ssh-agent -StartupType Automatic; ssh-add \"$env:USERPROFILE\\\\.ssh\\\\id_ed25519\")",
+      "PowerShell(& \"C:\\\\Program Files\\\\Git\\\\usr\\\\bin\\\\ssh.exe\" -T git@github.com 2>&1)"
+    ]
+  }
+}
