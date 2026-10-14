@@ -1,0 +1,19 @@
+# Normalize line endings: store LF in the repo, check out per platform.
+* text=auto
+
+# Binary assets must never be text-normalized.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.pdf binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.otf binary
+*.eot binary
+*.mp3 binary
+*.mp4 binary
+*.zip binary
