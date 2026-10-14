@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "md/funding_data.md",
+                "file": "zh-cn/_sidebar.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "funding_data"
+              "title": "_sidebar"
             }
           }
         ]
@@ -51,7 +51,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -196,6 +198,10 @@
   },
   "active": "dad12111b08d79bc",
   "lastOpenFiles": [
+    "zh-cn/产品类型.md",
+    "zh-cn/个人中心.md",
+    "zh-cn/images/用户/用户注册_4.jpg",
+    "md/funding_data.md",
     "md/currency_payment.md",
     "md/currency_management.md",
     "md/currency.md",
@@ -227,9 +233,6 @@
     "zh-cn/KYC待审核用户.md",
     "zh-cn/KYC待审核提款账户.md",
     "zh-cn/用户列表_old.md",
-    "zh-cn/用户列表.md",
-    "zh-cn/用户关系树.md",
-    "zh-cn/用户等级.md",
-    "zh-cn/用户查询.md"
+    "zh-cn/用户列表.md"
   ]
 }
