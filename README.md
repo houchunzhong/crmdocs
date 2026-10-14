@@ -105,7 +105,7 @@ The official MIM CRM documentation uses a **"Modular + Hierarchical Navigation"*
 
 ## **3. Logical Relationship Diagram Between Modules**
 
-![1773636017104](images/README/1773636017104.png)
+![Figure 01 Logical Relationship Diagram Between Modules](images/README/fig01_en.png)
 
 
 📌 Interpretation:

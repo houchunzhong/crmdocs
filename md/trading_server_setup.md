@@ -78,7 +78,9 @@ Controls whether the client download module is visible to users:
 
 ### 2.2 Download URL List
 
-This list manages the software download or access links for different platforms:![1764928901651](images/trading_server_setup/1764928901651.png)
+This list manages the software download or access links for different platforms:
+
+![Figure 01 Download URL List](images/trading_server_setup/fig01_en.png)
 
 * **Icon Style**
   Used to display the identifier for different platforms (e.g., Windows, Apple, Android).
